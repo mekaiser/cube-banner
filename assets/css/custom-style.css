@@ -1,0 +1,28 @@
+#pop-up-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  position: relative;
+  width: 1024px;
+  height: 768px;
+}
+
+#cross-btn {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(512px, -420px);
+  color: white;
+  z-index: 4;
+  cursor: pointer;
+}
